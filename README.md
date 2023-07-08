@@ -1,2 +1,2 @@
-# -Front-page-rebuild-of-supertape.com
+# Front-page-rebuild-of-supertape.com
 Rebuild of supertape.com
