@@ -506,6 +506,7 @@ footer {
 
       p {
          width: 50px;
+         cursor: pointer;
       }
    }
 }
@@ -561,6 +562,501 @@ footer {
 
       img {
          width: 680px;
+      }
+   }
+}
+
+// responsive 1200px
+@media(max-width:1200px) {
+   .post_header_title {
+      h1 {
+         font-size: 3rem;
+         line-height: 3rem;
+      }
+   }
+
+   .link_apps_div {
+      width: 800px;
+
+      .link_apps_div_first_part {
+
+         p {
+            font-size: 1rem;
+            text-align: center;
+         }
+
+         img {
+            width: 50px;
+         }
+      }
+   }
+
+   .image_pallete_first {
+      width: 800px;
+
+      .pallete_images {
+         width: 600px;
+      }
+
+      p {
+         text-align: center;
+      }
+   }
+
+   .in_sync_div {
+      width: 800px;
+   }
+
+   .one_link_div {
+      width: 800px;
+
+      .one_link_div_body {
+         .one_link_div_body_text_part {
+            p {
+               font-size: 1rem;
+               text-align: center;
+               width: 30ch;
+            }
+         }
+      }
+   }
+
+   .made_for_musicians_div {
+      width: 800px;
+
+      .made_for_musicians_div_body_text {
+         p {
+            font-size: 1rem;
+            text-align: center;
+            width: 30ch;
+         }
+      }
+   }
+
+   .some_super_features_div {
+      width: 800px;
+
+      .some_super_features_div_body {
+
+         .some_super_features_div_body_first_part,
+         .some_super_features_div_body_second_part {
+            p {
+               font-size: 1rem;
+               width: 30ch;
+            }
+         }
+      }
+   }
+
+   .free_trial_div {
+      width: 800px;
+
+      .prime_pricing_div {
+         width: 600px;
+      }
+   }
+
+   .three_piece_div {
+      width: 800px;
+
+      .three_piece_div_body {
+
+         .three_piece_div_body_first_part,
+         .three_piece_div_body_second_part {
+
+            p {
+               font-size: 1rem;
+            }
+
+
+         }
+      }
+
+   }
+}
+
+// responsive 900px
+@media (max-width:900px) {
+   .post_header_title {
+      h1 {
+         font-size: 2.5rem;
+         line-height: 2.5rem;
+      }
+   }
+
+   .link_apps_div {
+      width: 600px;
+
+      .link_apps_div_first_part {
+         p {
+            font-size: .9rem;
+         }
+      }
+
+      .link_apps_div_second_part {
+         h2 {
+            font-size: 1.6rem;
+         }
+
+         p {
+            font-size: 1rem;
+         }
+      }
+   }
+
+   .image_pallete_first {
+      width: 600px;
+
+      .pallete_images {
+         width: 500px;
+      }
+   }
+
+   .in_sync_div {
+      width: 600px;
+   }
+
+   .one_link_div {
+      width: 600px;
+
+      .one_link_div_body {
+         .one_link_div_body_text_part {
+            p {
+               font-size: .9rem;
+               width: 25ch;
+            }
+         }
+
+         .one_link_div_body_table_part {
+
+            .one_link_div_body_teble_part_section_one,
+            .one_link_div_body_table_part_section_two {
+
+               p {
+                  margin-left: 5px;
+               }
+            }
+         }
+      }
+   }
+
+   .made_for_musicians_div {
+      width: 600px;
+   }
+
+   .some_super_features_div {
+      width: 600px;
+
+      .some_super_features_div_body {
+
+         .some_super_features_div_body_first_part,
+         .some_super_features_div_body_second_part {
+            p {
+               font-size: .9rem;
+               width: 30ch;
+            }
+         }
+      }
+   }
+
+   .three_piece_div {
+      width: 600px;
+   }
+
+   .free_trial_div {
+      width: 600px;
+
+      .prime_pricing_div {
+         width: 400px;
+      }
+   }
+
+   .image_pallete_second,
+   .image_pallete_third {
+      .pallete_images {
+         img {
+            width: 500px;
+         }
+      }
+
+   }
+}
+
+@media (max-width:700px) {
+   body {
+      overflow-x: hidden;
+   }
+
+   .post_header_title {
+      h1 {
+         font-size: 2rem;
+         line-height: 2rem;
+      }
+   }
+
+   .link_apps_div {
+      width: 450px;
+
+      .link_apps_div_first_part {
+         p {
+            font-size: .9rem;
+            width: 30ch;
+            text-align: left;
+         }
+      }
+
+      .link_apps_div_second_part {
+         h2 {
+            font-size: 1.5rem;
+         }
+
+         p {
+            font-size: 1rem;
+         }
+      }
+   }
+
+   .image_pallete_first {
+      width: 450px;
+
+      .pallete_images {
+         width: 300px;
+      }
+   }
+
+   .in_sync_div {
+      width: 450px;
+   }
+
+   .one_link_div {
+      width: 450px;
+
+      .one_link_div_body {
+         .one_link_div_body_text_part {
+            p {
+               font-size: .9rem;
+               width: 25ch;
+            }
+         }
+
+         .one_link_div_body_table_part {
+
+            .one_link_div_body_teble_part_section_one,
+            .one_link_div_body_table_part_section_two {
+
+               p {
+                  margin-left: 5px;
+               }
+            }
+         }
+      }
+   }
+
+   .made_for_musicians_div {
+      width: 450px;
+
+      .made_for_musicians_div_body_text {
+
+         p {
+            text-align: left;
+         }
+      }
+   }
+
+   .some_super_features_div {
+      width: 450px;
+
+      .some_super_features_div_body {
+
+         .some_super_features_div_body_first_part,
+         .some_super_features_div_body_second_part {
+            p {
+               font-size: .8rem;
+               width: 20ch;
+            }
+         }
+      }
+   }
+
+   .three_piece_div {
+      width: 450px;
+   }
+
+   .free_trial_div {
+      width: 450px;
+
+      .prime_pricing_div {
+         width: 400px;
+      }
+
+      button {
+
+         width: 300px;
+         font-size: 1rem;
+      }
+   }
+
+   .image_pallete_second,
+   .image_pallete_third {
+      .pallete_images {
+         img {
+            width: 300px;
+         }
+      }
+
+   }
+}
+
+@media (max-width:500px) {
+   header {
+      flex-direction: column;
+
+      .header_buttons {
+         margin-top: 20px;
+      }
+   }
+
+   .post_header_title {
+      h1 {
+         margin-top: -50px;
+         font-size: 1.5rem;
+         font-weight: bold;
+      }
+   }
+
+   .link_apps_div {
+      width: 280px;
+      flex-direction: column;
+   }
+
+   .free_trial_div {
+      width: 280px;
+
+      h1 {
+         font-size: 1.8rem;
+         font-weight: bold;
+      }
+
+      .prime_pricing_div {
+         width: 250px;
+      }
+
+      button {
+         width: 250px;
+         padding: 20px;
+      }
+   }
+
+   .three_piece_div {
+      width: 280px;
+
+      .three_piece_div_body {
+         flex-direction: column;
+
+         p {
+            max-width: 30ch;
+         }
+      }
+   }
+
+   .made_for_musicians_div {
+      width: 280px;
+
+      .made_for_musicians_div_body_text {
+         flex-direction: column;
+      }
+   }
+
+   .in_sync_div {
+      width: 280px;
+
+      .in_sync_div_header {
+         h1 {
+            font-size: 1.8rem;
+         }
+      }
+
+      .in_sync_div_body_text_part {
+         flex-direction: column;
+
+         p {
+            width: 25ch;
+         }
+      }
+
+
+   }
+
+   .some_super_features_div {
+      width: 280px;
+
+      .some_super_features_div_body {
+         flex-direction: column;
+      }
+   }
+
+   .one_link_div {
+      width: 280px;
+
+      .one_link_div_body_text_part {
+         flex-direction: column;
+
+         p {
+            margin-top: 20px;
+         }
+      }
+
+      .one_link_div_body_table_part {
+         flex-direction: column;
+      }
+   }
+
+   .image_pallete_first {
+      width: 280px;
+
+      .pallete_images {
+         width: 150px;
+      }
+   }
+
+   .image_pallete_second,
+   .image_pallete_third {
+      .pallete_images {
+         img {
+            width: 250px;
+         }
+      }
+
+   }
+
+   .link_apps_div {
+      align-items: center;
+      padding-bottom: 10px;
+
+      .link_apps_div_first_part {
+         border: none;
+         flex-direction: column;
+         align-items: center;
+         border-bottom: 2px solid black;
+
+         p {
+            text-align: center;
+            margin-top: 10px;
+         }
+      }
+
+      .link_apps_div_second_part {
+         h2 {
+            font-size: 1.3rem;
+            width: 10ch;
+            text-align: center;
+         }
+
+         p {
+            font-size: 1rem;
+            width: 20ch;
+            text-align: center;
+         }
       }
    }
 }
